@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About Me</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#one">My Projects</a></li>
+							<li><a href="#two">Achievements and Open Source Contributions</a></li>
+							<li><a href="#three">My Resume</a></li>
+							<li><a href="#four">Blogs</a></li>
+							<li><a href="#five">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Chirayu Tripathi</h1>
+							<p>Passionate Software Engineer with primary focus on Machine Learning, having 2 years of experience deploying fine-tuned transformers,
+								implementing innovative AI solutions, and collaborating on medical projects for predictive modeling. </p>
+							<ul class="actions">
+								<li><a href="#skills" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Skills -->
+				<section id="skills" class="wrapper style3 spotlights">
+					<div class="inner">
+						<h2>Skills</h2>
+						<h3>Programming Languages</h3>
+						<p>Python, C/C++, HTML/CSS, R, Erlang, Java.</p>
+						<h3>Databases</h3>
+						<p>MySQL, MongoDB, PostgreSQL.</p>
+						<h3>Frameworks & Applications</h3>
+						<p>Hadoop, Tableau, Numpy, Pandas, Matplotlib, Scikit-learn, PyTorch, Tensorflow, Excel, Git, AWS, Flask, REST API, Apache Spark, SAS, ETL, Langchain, Docker, Kubernetes.</p>
+						<h3>Technical Skills</h3>
+						<p>Deep Learning, RPA, Statistics, Linux, DBMS, Algorithms, Data Visualization, MLOps, NLP.</p>
+					</div>
+				</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/nl2query.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>nl2query</h2>
+									<p>Engineered a framework to translate natural language text into queries for Pandas, MongoDB, Kusto, and Neo4j databases, enabling seamless querying across disparate data sources using plain English. 
+										Created and published a package using PyPI with over 3K downloads and is available at <a href="https://pypi.org/project/nl2query/"> nl2query. </a></p>
+									<p>Tech Used: CodeT5+, MongoDB, Pandas, Neo4j, Kusto, NLP, Text Generation, Python, Pytorch.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/Chirayu-Tripathi/nl2query" class="button">See Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/verAIzon.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>VerAIzon</h2>
+									<p>RAG (Retrieval Augmented Generation) chatbot accompanied with Mistral-7B, specifically tailored for Verizon customer services.
+										The chatbot's workflow begins with dataset creation through iterative extraction from links and user guides, resulting in approximately 1000 pages of data. To address the processing limitations of Large Language Models (LLMs), we implement a recursive character splitting technique from Langchain, breaking the dataset into manageable text chunks. Embeddings are then created using the all-MiniLM-L12-v2 model. Storage of these embeddings is efficiently managed through the FAISS (Facebook AI Similarity Search) vector store, known for its effectiveness in handling extensive data. During retrieval, user queries are matched with the most relevant chunks using FAISS search, ensuring accurate and tailored responses.
+									</p>
+									<p>Tech Used: RAG, Mistral-7B, Transformers, Pytorch, Langchain.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/Chirayu-Tripathi/VerAIzon" class="button">See Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/twitter.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Twitter API Clone using Distributed Computing</h2>
+									<p>Designed a Twitter clone server and client using the Erlang and Akka Model, capable of serving and handling upto 1-2 million
+										requests at a specific time-stamp.</p>
+									<p>Tech Used: Erlang, Akka Model, Distributed Computing, APIs.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/Chirayu-Tripathi/Twitter-clone-distributed-systems" class="button">See Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/kubernetes.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Kubernetes Controller</h2>
+									<p>Designed and developed a performance-optimized Kubernetes cluster on CloudLab utilizing model-based feedback control, including implementing a local controller on each node scaling pod counts based on utilization metrics to efficiently maximize resource usage, as well as creating a global cluster controller managing overall utilization through threshold-triggered node scaling and job scheduling using a middleware layer to separate cluster management from control logic.</p>
+									<p>Tech Used: Kubernetes, Flask, Docker, PID Controllers.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/orgs/EEL6871-Group3/repositories" class="button">See Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/spark.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Latent Factor based Recommender System using Spark ALS</h2>
+									<p>Implemented the popularity based recommender using latent factor model with ALS to decrease root mean square
+										error by 15% . Prevented cold start problem for a new user by using additional metadata like tags.
+										</p>
+									<p>Tech Used: Apache Spark, Recommender Systems.</p>
+									<!-- <ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul> -->
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Achievements and Open Source Contributions.</h2>
+							<p>Here are some of my achievements and open source contributions.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Global Rank 10 in "Love in the time of screens" Hackathon.</h3>
+									<p>Ranked 10th globally out of 2500 participants in the ”Love in the time of screens” Machine Learning hackathon
+										organized by HackerEarth, which involved matching dating candidates based on their profile.
+										</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-gem"></span>
+									<h3>Achievement Award Scholarship</h3>
+									<p>Received $4500 worth of scholarship from the University of Florida for my past academic record.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>SimpleT5 (Open Source)</h3>
+									<p>Contributed to open source by implementing CodeT5 transformer support for SimpleT5 library. <p><a href="https://github.com/Shivanandroy/simpleT5" class="button">Github Repository</a></p></p>
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>nl2query (Open Source)</h3>
+									<p>Open sourced my collected data as well as the fine-tuned CodeT5+ model for my nl2query package, so that open source community can build on top of it. At present it has 34 stars and about 3K downloads. <p><a href="https://github.com/Chirayu-Tripathi/nl2query" class="button">Github Repository</a></p></p>
+								</section>
+
+								<!-- <section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Urna quis bibendum</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section> -->
+							</div>
+							<!-- <ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul> -->
+						</div>
+					</section>
+
+			<!-- Three -->
+				<section id="three" class="wrapper style2 fade-up">
+					<div class="inner">
+						<h2>My Resume</h2>
+						<embed src="assets/Chirayu_resume.pdf" type="application/pdf" width="100%" height="600px" />
+				</section>
+
+
+			<!-- Four -->
+			<section id="four" class="wrapper style3 fade-up">
+				<div class="inner">
+					<h2>My Blogs</h2>
+					<p>Check out my latest blog post on Medium:</p>
+					<a href="https://medium.com/mlearning-ai/iterators-and-generators-in-python-8d392382f158" target="_blank">Iterators and Generators in Python</a>
+				</div>
+			</section>
+
+			<!-- four -->
+				<section id="five" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>Get in touch</h2>
+						<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+						<div class="split style1">
+							<section>
+								<form method="post" action="mailto:chirayutripathi7@gmail.com" enctype="text/plain">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li>
+											<button type="submit" class="button submit">Send Message</button>
+										</li>
+									</ul>
+								</form>
+							</section> -->
+							<section>
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<span>Gainesville, FL<br />
+										32608<br />
+										USA</span>
+									</li>
+									<li>
+										<h3>Email</h3>
+										<a href="#">chirayutripathi7@gmail.com</a>
+									</li>
+									<li>
+										<h3>Phone</h3>
+										<span>(352) 740-6202</span>
+									</li>
+									<li>
+										<h3>Social</h3>
+										<ul class="icons">
+											<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+											<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+											<li><a href="https://github.com/Chirayu-Tripathi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+											<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+											<li><a href="https://www.linkedin.com/in/chirayu-tripathi" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											<li>
+												<a href="https://huggingface.co/Chirayu" class="icon custom-icon">
+													<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" />
+													<span class="label">Hugging Face</span>
+												</a>
+											</li>
+											<li>
+												<a href="https://pypi.org/project/nl2query/" class="icon custom-icon">
+													<img src="https://pypi.org/static/images/logo-small.2a411bc6.svg" alt="PyPI" />
+													<span class="label">PyPI</span>
+												</a>
+											</li>
+											<li>
+												<a href="https://leetcode.com/Chirayu1631/" class="icon custom-icon">
+													<img src="images/leetcode.svg" alt="LeetCode" />
+													<span class="label">LeetCode</span>
+												</a>
+											</li>
+											
+										</ul>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li>
+						<!-- <li>Design: <a href="#">@chirayu</a></li> -->
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
